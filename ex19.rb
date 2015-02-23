@@ -23,3 +23,16 @@ cheese_and_crackers(10 + 20, 5 + 6)
 
 puts "And we can combine the two, variables and math:"
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+def man(height, weight, age)
+  puts "The man's height is #{height}\nHis weight is #{weight}\nand his age is #{age}"
+end
+
+man(180, 80, 35)
+man(172 - 10, 50 + 20, 15 * 2)
+height = 175
+weight = 78
+age = 85
+man(height, weight, age)
+man(height - 5, weight / 2, height - (2 * weight))
+man(155 + 3, weight + 2, 27)

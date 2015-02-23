@@ -1,5 +1,5 @@
 filename = ARGV.first
-txt = open(filename)
+txt = open(filename) #txt is a File object and has asscoiated 'read' method
 
 puts "Here's your file #{filename}:"
 print txt.read

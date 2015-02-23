@@ -33,6 +33,7 @@ puts "How about some more."
 puts "Is it greater? #{5 > -2}"
 puts "Is it greater or equal? #{5 >= -2}"
 puts "Is it less or equal? #{5 <= -2}"
+<<<<<<< HEAD:ex3.rb
 =======
 # This prints out the text as is:
 puts "I will now count my chickens:"
@@ -67,3 +68,5 @@ puts "Is it greater or equal? #{5.0 >= -2.0}"
 # This checks that 5 is indeed less than or equal to -2 (returns true if it is, false if not):
 puts "Is it less or equal? #{5.0 <= -2.0}"
 >>>>>>> mark/master
+=======
+>>>>>>> c0d18434d1d7508e3332571955b0fa9546169838:ex_3.rb

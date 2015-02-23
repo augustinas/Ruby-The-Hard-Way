@@ -1,4 +1,4 @@
-user_name, boss = ARGV.second
+user_name, boss = ARGV.first
 #boss = ARGV.second
 prompt = "> "
 puts "Hi #{user_name}"

@@ -7,4 +7,3 @@ end3 = "o"
 end4 = "p"
 puts end1 + end2 + end3 + end4
 print end1 + end2 + end3 + end4
-

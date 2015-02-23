@@ -6,9 +6,12 @@ eyes = 'Blue'
 teeth = 'White-ish'
 hair = 'Dark Blond'
 
+height_in_inches = height / 2.54
+weight_in_pounds = weight * 2.2
+
 puts "Let's talk about #{name}."
-puts "He's #{height} centimetres tall."
-puts "He's #{weight} kilogrammes in weight."
+puts "He's #{height} centimetres (#{height_in_inches} inches) tall."
+puts "He's #{weight} kilogrammes (#{weight_in_pounds} pounds) in weight."
 puts "Actually that's not too heavy!"
 puts "He's got #{eyes} eyes and #{hair} hair."
 puts "His teeth are usually #{teeth} depending on the coffee!" # so true!

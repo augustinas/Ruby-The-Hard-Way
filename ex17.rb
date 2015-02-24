@@ -1,18 +1,23 @@
-from_file = ARGV.first
-to_file = ARGV.last
+from_file, to_file = ARGV
 
 #in_file = open(from_file)
 #indata = in_file.read
 
 indata = open(from_file).read
 
+puts "Copying from #{from_file} to #{to_file}"
+
 puts "The input file is #{indata.length} bytes long"
 
 puts "Does the output file exist? #{File.exist?(to_file)}"
-puts "Ready! Hit RETURN	to continue, CTRL-C to abort."
 
+puts "Ready, hit RETURN to continue, CTRL-C to abort."
 $stdin.gets
 
-open(to_file, 'w').write(indata)
+out_file = open(to_file, 'w')
+out_file.write(indata)
 
-puts "All good! Done now."
+puts "Alright, all done."
+
+out_file.close
+in_file.close

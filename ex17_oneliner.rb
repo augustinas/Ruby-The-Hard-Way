@@ -1,1 +1,0 @@
-open(ARGV.last, 'w').write(open(ARGV.first).read)

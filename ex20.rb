@@ -5,7 +5,7 @@ def print_all(f)
 end
 
 def rewind(f)
-  f.seek(0)
+  f.seek(5)
 end
 
 def print_a_line(line_count, f)

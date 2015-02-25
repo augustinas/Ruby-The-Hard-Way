@@ -1,3 +1,0 @@
-this is a file
-this will be copied
-have I been copied?
